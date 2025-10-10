@@ -7,9 +7,13 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function index()
+    public function mainpage()
     {
         return view('mainpage');
     }
 
+    public function schaar()
+    {
+        return view('schaar');
+    }
 }

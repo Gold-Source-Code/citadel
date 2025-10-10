@@ -6,9 +6,125 @@ body {
     width: 1900px;
     height: auto;
    }
-.watermark{
+
+.information{
+  position: fixed;
+  text-align: center;
+  top: 150px;
+  left: 520px;
+  width: 320px;
+  height: 365px;
+  border: 5px solid rgba(128, 128, 128, 0);
+}
+
+.foto img{
+    position: fixed;
+    float: right;
+    margin-left: -40px;
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+    top: 150px;
+    left: 920px;
+}
+
+.safety{
+  position: fixed;
+  top: 550px;
+  left: 520px;
+  width: 840px;
+  height: 140px;
+  border: 5px solid rgba(128, 128, 128, 0);
+}
+
+.icon img{
+    position: fixed;
+    left: 680px;
+    width: 100px;
+    height: auto;
+}
+
+.icon2 img{
+    position: fixed;
+    left: 820px;
+    width: 100px;
+    height: auto;
+}
+
+.icon3 img{
+    position: fixed;
+    left: 960px;
+    width: 100px;
+    height: auto;
+}
+
+.icon4 img{
+    position: fixed;
+    left: 1100px;
+    width: 100px;
+    height: auto;
+}
+
+.bigtext{
+  font-size: 40px;
+  color: rgb(215, 215, 215);
+  font-family: Roboto;
+}
+
+.smalltext{
+  font-size: 20px;
+  color: rgb(215, 215, 215);
+  font-family: Roboto;
+}
+
+.watermark img{
     position:fixed;
     bottom:5px;
     right:5px;
     opacity:0.5;
    }
+
+.kantbankvenster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.kantbankvenster.open {
+  opacity: 1;
+  z-index: 99;
+}
+
+.kantbankvenster-inner {
+  background-color: rgb(65, 65, 65);
+  border-radius: 4px;
+  text-align: center;
+  width: 1250px;
+  height: 800px;
+  padding: 15px 25px;
+}
+
+button {
+  background-image: linear-gradient(to right, #ffee00, #ffbe28);
+  border-radius: 20px;
+  border: 0;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  cursor: pointer;
+  padding: 10px 25px;
+}
+
+button:active {
+  opacity: 0.8;
+}
