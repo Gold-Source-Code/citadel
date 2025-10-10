@@ -10,7 +10,7 @@ body {
 .information{
   position: fixed;
   text-align: center;
-  top: 150px;
+  top: 250px;
   left: 520px;
   width: 320px;
   height: 365px;
@@ -24,13 +24,13 @@ body {
     width: 500px;
     height: auto;
     border-radius: 4px;
-    top: 150px;
+    top: 250px;
     left: 920px;
 }
 
 .safety{
   position: fixed;
-  top: 550px;
+  top: 650px;
   left: 520px;
   width: 840px;
   height: 140px;
@@ -84,7 +84,7 @@ body {
     opacity:0.5;
    }
 
-.kantbankvenster {
+.schaarvenster {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,22 +100,22 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.kantbankvenster.open {
+.schaarvenster.open {
   opacity: 1;
   z-index: 99;
 }
 
-.kantbankvenster-inner {
+.schaarvenster-inner {
   background-color: rgb(65, 65, 65);
   border-radius: 4px;
   text-align: center;
-  width: 1250px;
-  height: 800px;
+  width: 900px;
+  height: 600px;
   padding: 15px 25px;
 }
 
 button {
-  background-image: linear-gradient(to right, #ffee00, #ffbe28);
+  background-image: linear-gradient(to right, #367cd1, #215ea8);
   border-radius: 20px;
   border: 0;
   font-size: 20px;

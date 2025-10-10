@@ -1,11 +1,10 @@
-const openKBV = document.getElementById("kantbank-open");
-const closeKBV = document.getElementById("kantbank-close");
-const KBV = document.getElementById("kantbank");
+const closeSchaar = document.getElementById("schaar-close");
+const Schaar = document.getElementById("schaar");
 
-openKBV.addEventListener("click", () => {
-    KBV.classList.add("open");
-});
+function schaarvenster(){
+    Schaar.classList.add("open");
+};
 
-closeKBV.addEventListener("click", () => {
-    KBV.classList.remove("open");
+closeSchaar.addEventListener("click", () => {
+    Schaar.classList.remove("open");
 });
