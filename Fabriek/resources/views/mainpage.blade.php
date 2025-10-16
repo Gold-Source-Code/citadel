@@ -12,49 +12,61 @@
 
         <div class="schaarvenster" id="schaar">
             <div class="schaarvenster-inner">
-                        <div class="information">
-            <div class="bigtext">
-                Handleiding:
-            </div>
-            <div class="smalltext">
-                #link#
-            </div>
-            <br><br><br>
-            <div class="bigtext">
-                Laatste Inspectie:
-            </div>
-            <div class="smalltext">
-                13/37/115
-            </div>
-            <br><br><br>
-            <div class="bigtext">
-                Contact info:
-            </div>
-            <div class="smalltext">
-                email lol
-            </div>
-        </div>
+                <div class="information">
+                    <div class="bigtext">
+                        Handleiding:
+                    </div>
+                    <div class="smalltext">
+                        <a href="https://youtu.be/jm-HEiLV_dI?si=bz8l2ZpBNY15YMRV&t=174">video</a>
+                    </div>
+                    <br><br><br>
+                    <div class="bigtext">
+                        Laatste Inspectie:
+                    </div>
+                    <div class="smalltext">
+                        20/03/2025
+                    </div>
+                    <br><br><br>
+                    <div class="bigtext">
+                        Contact info:
+                    </div>
+                    <div class="smalltext">
+                        adjong@davinci.nl
+                    </div>
+                </div>
 
-        <div class="foto">
-            <img src="{{asset('icons/schaar.jpg')}}" alt="schaar">
-        </div>
+                <div class="foto">
+                    <img src="{{asset('icons/schaar.jpg')}}" alt="schaar">
+                </div>
 
-        <div class="safety">
-             <div class="icon">
-                <img src="{{asset('icons/safety5.png')}}" alt="helm">
-             </div>
-             <div class="icon2">
-                <img src="{{asset('icons/safety7.png')}}" alt="lees">
-             </div>
-             <div class="icon3">
-                <img src="{{asset('icons/safety3.png')}}" alt="outfit">
-             </div>
-             <div class="icon4">
-                <img src="{{asset('icons/safety4.png')}}" alt="laarzen">
-             </div>
-        </div>
-                <br>
+                <div class="safety">
+                    <div class="icon">
+                        <img src="{{asset('icons/safety5.png')}}" alt="helm">
+                    </div>
+                    <div class="icon2">
+                        <img src="{{asset('icons/safety7.png')}}" alt="lees">
+                    </div>
+                    <div class="icon3">
+                        <img src="{{asset('icons/safety3.png')}}" alt="outfit">
+                    </div>
+                    <div class="icon4">
+                        <img src="{{asset('icons/safety4.png')}}" alt="laarzen">
+                    </div>
+                </div>
+                        <br>
                 <button id="schaar-close">Close</button>
+            </div>
+
+            <div class="schaarvenster-extra">
+                <div class="extra-information">
+                    <div class="extratext">
+                        Let op!<br>
+                        Houd rekening met de afmetingen op het papier.
+                    </div>
+                </div>
+                <div class="clippy">
+                    <img src="{{asset('icons/clippy.gif')}}" alt="assistant">
+                </div>
             </div>
         </div>
 

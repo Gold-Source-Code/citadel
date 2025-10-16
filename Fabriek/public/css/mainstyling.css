@@ -128,3 +128,28 @@ button {
 button:active {
   opacity: 0.8;
 }
+
+.schaarvenster-extra {
+  position: fixed;
+  top: 800px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 4px;
+  text-align: center;
+  width: 700px;
+  height: 75px;
+  padding: 15px 25px;
+}
+
+.extratext {
+  font-size: 30px;
+  color: rgb(215, 215, 215);
+  font-family: Roboto;
+}
+
+.clippy img {
+    position: fixed;
+    top: 850px;
+    left: 550px;
+    width: 70px;
+    height: auto;
+}
