@@ -8,59 +8,66 @@ body {
    }
 
 .information{
-  position: fixed;
-  text-align: center;
-  top: 250px;
-  left: 520px;
+  position: absolute;
+  margin: auto;
+  right: 60%;
   width: 320px;
   height: 365px;
   border: 5px solid rgba(128, 128, 128, 0);
 }
 
+.foto-box{
+  position: absolute;
+  margin: auto;
+  left: 41%;
+  width: 500px;
+  height: 10px;
+  border: 5px solid rgba(128, 128, 128, 0);
+}
+
 .foto img{
-    position: fixed;
-    float: right;
-    margin-left: -40px;
-    width: 500px;
-    height: auto;
-    border-radius: 4px;
-    top: 250px;
-    left: 920px;
+  width: 500px;
+  height: auto;
+  border-radius: 4px;
 }
 
 .safety{
-  position: fixed;
-  top: 650px;
-  left: 520px;
-  width: 840px;
+  position: absolute;
+  margin: auto;
+  right: 0%;
+  width: 800px;
   height: 140px;
   border: 5px solid rgba(128, 128, 128, 0);
 }
 
 .icon img{
-    position: fixed;
-    left: 680px;
+    position: absolute;
+    margin: auto;
+    right: 70%;
     width: 100px;
     height: auto;
 }
 
 .icon2 img{
-    position: fixed;
-    left: 820px;
+    position: absolute;
+    margin: auto;
+    right: 55%;
     width: 100px;
     height: auto;
 }
 
 .icon3 img{
-    position: fixed;
-    left: 960px;
+    position: absolute;
+    margin: auto;
+    right: 40%;
     width: 100px;
     height: auto;
 }
 
 .icon4 img{
-    position: fixed;
-    left: 1100px;
+    position: absolute;
+    margin: auto;
+    right: 25%;
     width: 100px;
     height: auto;
 }
@@ -84,29 +91,11 @@ body {
     opacity:0.5;
    }
 
-.schaarvenster {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.schaarvenster.open {
-  opacity: 1;
-  z-index: 99;
-}
-
-.schaarvenster-inner {
-  background-color: rgb(65, 65, 65);
+.info-pagina{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(255, 0, 0, 0);
   border-radius: 4px;
   text-align: center;
   width: 900px;
@@ -114,25 +103,33 @@ body {
   padding: 15px 25px;
 }
 
+.backtomain {
+  position:fixed;
+  top:5px;
+  left:5px;
+}
+
 button {
-  background-image: linear-gradient(to right, #367cd1, #215ea8);
+  background-image: linear-gradient(to right, #d13636, #a82121);
   border-radius: 20px;
   border: 0;
   font-size: 20px;
   color: rgb(255, 255, 255);
   font-family: Roboto;
   cursor: pointer;
-  padding: 10px 25px;
+  padding: 10px 15px;
 }
 
 button:active {
   opacity: 0.8;
 }
 
-.schaarvenster-extra {
-  position: fixed;
-  top: 800px;
-  background-color: rgb(65, 65, 65);
+.info-pagina-extra {
+  position: relative;
+  top: 500px;
+  margin: auto;
+  right: 1%;
+  background-color: rgb(55, 55, 55);
   border-radius: 4px;
   text-align: center;
   width: 700px;
@@ -148,7 +145,7 @@ button:active {
 
 .clippy img {
     position: fixed;
-    top: 850px;
+    top: 585px;
     left: 550px;
     width: 70px;
     height: auto;
