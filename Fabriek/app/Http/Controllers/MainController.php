@@ -14,6 +14,8 @@ class MainController extends Controller
 
     public function schaar()
     {
-        return view('schaar');
+        $allInfo = Main::all();
+        $extra = Main::where('id', 1)->value('extra');
+        return view('schaar', ['extrainfo' => $extra]);
     }
 }

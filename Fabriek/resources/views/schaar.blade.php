@@ -52,7 +52,7 @@
                 <div class="extra-information">
                     <div class="extratext">
                         Let op!<br>
-                        Houd rekening met de afmetingen op het papier.
+                        {{$extrainfo}}
                     </div>
                 </div>
                 <div class="clippy">
