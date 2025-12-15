@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Main extends Model
 {
-    protected $fillable = ["naam","handleiding","video","foto","extra","datum","regels"];
+    protected $fillable = ["naam","handleiding","video","foto","extra","datum","contact"];
 }

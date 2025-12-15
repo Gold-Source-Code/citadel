@@ -10,14 +10,14 @@
                     Handleiding:
                 </div>
                 <div class="smalltext">
-                    <a href="https://youtu.be/jm-HEiLV_dI?si=bz8l2ZpBNY15YMRV&t=174">video</a>
+                    <a href="{{$video}}">video</a>
                 </div>
                 <br><br><br>
                 <div class="bigtext">
                     Laatste Inspectie:
                 </div>
                 <div class="smalltext">
-                    20/03/2025
+                    {{$datum}}
                 </div>
                 <br><br><br>
                 <div class="bigtext">
