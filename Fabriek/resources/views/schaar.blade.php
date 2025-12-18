@@ -24,7 +24,7 @@
                     Contact info:
                 </div>
                 <div class="smalltext">
-                    adjong@davinci.nl
+                    {{$contact}}
                 </div>
             </div>
             <div class="foto-box">
