@@ -5,6 +5,6 @@ function schaarvenster(){
     Schaar.classList.add("open");
 };
 
-closeSchaar.addEventListener("click", () => {
+function closeschaarvenster(){
     Schaar.classList.remove("open");
-});
+};

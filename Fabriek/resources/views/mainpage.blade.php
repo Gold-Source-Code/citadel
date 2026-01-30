@@ -1,11 +1,11 @@
 <html>
     <head>
         <title>Fabriek</title>
-        <link rel="stylesheet" type="text/css" href="{{asset('css/mainstyling.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/mapstyling.css')}}">
     <head\>
     <body>
         <map name="mapfields">
-             <area shape="rect" coords="761,407,852,485" alt="schaar" href="/schaar">
+             <area shape="rect" coords="761,407,852,485" alt="schaar" onclick="schaarvenster()">
              <area shape="rect" coords="761,330,794,399" alt="platenrek" href="/platenrek">
              <area shape="rect" coords="761,242,814,322" alt="kantbank" href="/kantbank">
         </map>
@@ -14,9 +14,68 @@
             <img src="{{asset('icons/plattegrondv1.png')}}" alt="map" usemap="#mapfields">
         </div>
 
+        <!-- Venster -->
+
+        <div class="schaarvenster" id="schaar">
+            <div class="schaarvenster-inner">
+                <div class="information">
+                    <div class="bigtext">
+                        Handleiding:
+                    </div>
+                    <div class="smalltext">
+                        <a href="{{$video}}">video</a>
+                    </div>
+                    <br><br><br>
+                    <div class="bigtext">
+                        Laatste Inspectie:
+                    </div>
+                    <div class="smalltext">
+                        {{$datum}}
+                    </div>
+                    <br><br><br>
+                    <div class="bigtext">
+                        Contact info:
+                    </div>
+                    <div class="smalltext">
+                        {{$contact}}
+                    </div>
+                </div>
+                <div class="foto-box">
+                    <div class="foto">
+                        <img src="https://8crcrvs6mlxg0pmu.public.blob.vercel-storage.com/machine-photos/cmg7yz9z20002jo04ten5f6yz_1767962341181.jpeg" alt="schaar">
+                    </div>
+                </div>    
+
+            <!--<div class="safety">
+                    <div class="icon">
+                        <img src="{{asset('icons/safety5.png')}}" alt="helm">
+                    </div>
+                    <div class="icon2">
+                        <img src="{{asset('icons/safety7.png')}}" alt="lees">
+                    </div>
+                    <div class="icon3">
+                        <img src="{{asset('icons/safety3.png')}}" alt="outfit">
+                    </div>
+                    <div class="icon4">
+                        <img src="{{asset('icons/safety4.png')}}" alt="laarzen">
+                    </div>
+                </div> -->
+            </div> 
+            <a class="backtomain" onclick="closeschaarvenster()">
+                <button>X</button>
+            </a>
+        </div>
+        
+        <!-- Buttons -->
+
+        <a class="dashboard" href="https://stage-sooty.vercel.app/guest">
+            <button>⚙</button>
+        </a>
+
         <div class="watermark">
             <img src="{{asset('icons/watermark5.png')}}" alt="watermark">
         </div>
+
         <script src="{{asset('js/vensterscript.js')}}"></script>
     <body\>
 <html\>

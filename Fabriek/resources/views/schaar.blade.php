@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Fabriek</title>
-        <link rel="stylesheet" type="text/css" href="{{asset('css/mainstyling.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/infostyling.css')}}">
     <head\>
     <body>
         <div class="info-pagina">
@@ -63,6 +63,10 @@
 
         <a class="backtomain" href="/mainpage">
             <button>X</button>
+        </a>
+
+        <a class="dashboard" href="https://stage-sooty.vercel.app/guest">
+            <button>⚙</button>
         </a>
 
         <div class="watermark">
