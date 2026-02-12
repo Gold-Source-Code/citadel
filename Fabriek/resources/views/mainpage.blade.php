@@ -42,11 +42,11 @@
                 </div>
                 <div class="foto-box">
                     <div class="foto">
-                        <img src="https://8crcrvs6mlxg0pmu.public.blob.vercel-storage.com/machine-photos/cmg7yz9z20002jo04ten5f6yz_1767962341181.jpeg" alt="schaar">
+                        <img src="{{$foto}}" alt="schaar">
                     </div>
                 </div>    
 
-            <!--<div class="safety">
+            <div class="safety">
                     <div class="icon">
                         <img src="{{asset('icons/safety5.png')}}" alt="helm">
                     </div>
@@ -59,7 +59,7 @@
                     <div class="icon4">
                         <img src="{{asset('icons/safety4.png')}}" alt="laarzen">
                     </div>
-                </div> -->
+                </div>
             </div> 
             <a class="backtomain" onclick="closeschaarvenster()">
                 <button>X</button>
