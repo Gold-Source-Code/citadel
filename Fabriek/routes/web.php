@@ -5,3 +5,4 @@ use App\Http\Controllers\MainController;
 
 Route::get('/mainpage', [MainController::class, "mainpage"])->name("main");
 Route::get('/schaar', [MainController::class, "schaar"]);
+Route::get('/kantbank', [MainController::class, "kantbank"]);

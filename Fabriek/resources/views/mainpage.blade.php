@@ -5,7 +5,7 @@
     <head\>
     <body>
         <map name="mapfields">
-             <area shape="rect" coords="761,407,852,485" alt="schaar" onclick="schaarvenster()" href="javascript:void(0);">
+             <area shape="rect" coords="761,407,852,485" alt="schaar" href="/schaar">
              <area shape="rect" coords="761,330,794,399" alt="platenrek" href="/platenrek">
              <area shape="rect" coords="761,242,814,322" alt="kantbank" href="/kantbank">
         </map>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="foto-box">
                     <div class="foto">
-                        <img src="{{$foto}}" alt="schaar">
+                        <img src="{{$photo}}" alt="schaar">
                     </div>
                 </div>    
 
