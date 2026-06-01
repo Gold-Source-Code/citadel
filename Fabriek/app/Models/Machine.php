@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Machine extends Model
 {   
     protected $table = 'Machine';
-    protected $fillable = ["safetyIcons","photo"];
+    protected $fillable = ["safetyIcons","photo","status"];
 }

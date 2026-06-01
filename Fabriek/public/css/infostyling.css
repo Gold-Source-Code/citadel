@@ -112,6 +112,24 @@ body {
   font-family: Roboto;
 }
 
+.status-box{
+  position: absolute;
+  margin: auto;
+  top: 88.5%;
+  left: 0%;
+  width: 940px;
+  height: 50px;
+  border: 5px solid rgba(128, 128, 128, 0);
+  justify-content: center;
+}
+
+.status{
+  font-size: 40px;
+  color: rgb(215, 215, 215);
+  font-family: Roboto;
+  text-align: center;
+}
+
 /* Buttons */
 
 .backtomain {

@@ -2,6 +2,7 @@
     <head>
         <title>Fabriek</title>
         <link rel="stylesheet" type="text/css" href="{{asset('css/infostyling.css')}}">
+        <script src="{{asset('js/scripts.js')}}"></script>
     <head\>
     <body>
 
@@ -44,7 +45,7 @@
                     </div>
                 </div>    
 
-            <div class="safety">
+                <div class="safety">
                     <div class="icon">
                         <img src="{{asset('icons/safety5.png')}}" alt="helm">
                     </div>
@@ -56,6 +57,24 @@
                     </div>
                     <div class="icon4">
                         <img src="{{asset('icons/safety4.png')}}" alt="laarzen">
+                    </div>
+                </div>
+
+                <div class="status-box">
+                    <div class="status">
+                        {{$status}}
+                        <script>
+                            function statusCheck(){
+                                let text = document.querySelector(".status");
+                                var status = "{{$status}}";
+                                if (status == "OPERATIONAL") {
+                                    text.style.color = "green";
+                                    }
+                                if (status == "BROKEN") {
+                                    text.style.color = "red";
+                                }
+                            }
+                        </script>
                     </div>
                 </div>
             </div> 
@@ -72,6 +91,6 @@
             <img src="{{asset('icons/watermark5.png')}}" alt="watermark">
         </div>
 
-        <script src="{{asset('js/vensterscript.js')}}"></script>
+        <script>statusCheck()</script>
     <body\>
 <html\>
