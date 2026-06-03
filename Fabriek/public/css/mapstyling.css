@@ -33,7 +33,7 @@ body {
 }
 
 .schaarindicator img{
-  position: fixed;
+  position: absolute;
   width: 15px;
   height: auto;
   top: 481px;
@@ -41,7 +41,7 @@ body {
   z-index: 1;
 }
 .kantbankindicator img{
-  position: fixed;
+  position: absolute;
   width: 15px;
   height: auto;
   top: 318px;
