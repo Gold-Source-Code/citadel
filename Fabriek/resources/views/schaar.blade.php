@@ -19,19 +19,21 @@
                 </a>
                 <div class="information">
                     <div class="bigtext">
-                        Handleiding:
+                        Handleidingen:
                     </div>
-                    <div class="smalltext">
-                        <a href="{{$video}}" target="_blank" rel="noopener noreferrer">video</a> 
+                    <div class="icontext">
+                        <a href="{{$video}}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">🎬</a>
+                        <a href="{{$manual}}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">📄</a>
+                        <a href="https://drive.google.com/file/d/1P8zpogTSLXMIxAzPOybtroVJm_c12DWM/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">📖</a>   
                     </div>
-                    <br><br><br>
+                    <br>
                     <div class="bigtext">
                         Laatste Inspectie:
                     </div>
                     <div class="smalltext">
                         {{$datum}}
                     </div>
-                    <br><br><br>
+                    <br><br>
                     <div class="bigtext">
                         Contact info:
                     </div>

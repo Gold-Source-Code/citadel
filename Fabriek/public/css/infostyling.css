@@ -112,6 +112,12 @@ body {
   font-family: Roboto;
 }
 
+.icontext{
+  font-size: 50px;
+  color: rgb(215, 215, 215);
+  font-family: Roboto;
+}
+
 .status-box{
   position: absolute;
   margin: auto;
