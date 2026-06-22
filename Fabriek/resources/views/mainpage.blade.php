@@ -1,3 +1,4 @@
+<!-- Dit is de hoofdpagina waar de map te bekijken is -->
 <html>
     <head>
         <title>Fabriek</title>
@@ -5,6 +6,7 @@
         <script src="{{asset('js/scripts.js')}}"></script>
     <head\>
     <body>
+        ><!-- Dit zorgt ervoor dat de velden klikbaar zijn -->
         <map name="mapfields">
              <area shape="rect" coords="761,407,852,485" alt="schaar" href="/schaar">
              <area shape="rect" coords="761,330,794,399" alt="platenrek" href="/platenrek">
@@ -21,6 +23,7 @@
         <div class="kantbankindicator">
             <img id="imageid2" src="#">
         </div>
+        ><!-- Deze script checkt de DB voor OPERATIONAL/BROKEN. Zie Http/Controllers/MainController.php -->
         <script>
             function changeIcon(){
                 var status1 = "{{$status1}}";
@@ -43,7 +46,7 @@
             changeIcon()
         </script>
         
-        <!-- Buttons -->
+        <!-- Deze kop leid naar het andere programma -->
 
         <a class="dashboard" href="https://stage-sooty.vercel.app/guest">
             <button>⚙</button>
@@ -54,3 +57,4 @@
         </div>
     <body\>
 <html\>
+<!-- I don't like sand. It's coarse, rough, irritating. And it gets everywhere. -->

@@ -71,7 +71,7 @@ body {
   height: 140px;
   border: 5px solid rgba(128, 128, 128, 0);
 }
-
+/* Veiligheidsregels */
 .icon img{
     position: absolute;
     right: 5%;
@@ -99,7 +99,7 @@ body {
     width: 100px;
     height: auto;
 }
-
+/* Text */
 .bigtext{
   font-size: 40px;
   color: rgb(215, 215, 215);
@@ -117,7 +117,7 @@ body {
   color: rgb(215, 215, 215);
   font-family: Roboto;
 }
-
+/* Status Container */
 .status-box{
   position: absolute;
   margin: auto;

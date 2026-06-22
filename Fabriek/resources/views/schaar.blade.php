@@ -12,12 +12,12 @@
 
         <!-- Venster -->
 
-        <div class="schaarvenster" id="schaar">
-            <div class="schaarvenster-inner">
+        <div class="schaarvenster" id="schaar"> ><!-- Container - Gehele Scherm -->
+            <div class="schaarvenster-inner"> ><!-- Container - Venster -->
                 <a class="backtomain" href="/mainpage">
                     <button>X</button>
                 </a>
-                <div class="information">
+                <div class="information"> ><!-- Container - Informatie blok -->
                     <div class="bigtext">
                         Handleidingen:
                     </div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>    
 
-                <div class="safety">
+                <div class="safety"> ><!-- Container - Veiligheidsregels -->
                     <div class="icon">
                         <img src="{{asset('icons/safety5.png')}}" alt="helm">
                     </div>
@@ -62,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="status-box">
+                <div class="status-box"> 
                     <div class="status">
                         {{$status}}
                         <script>

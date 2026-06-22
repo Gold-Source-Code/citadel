@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
+// Alle functies staan in Http/Controllers/MainController.php
 Route::get('/mainpage', [MainController::class, "mainpage"])->name("main");
 Route::get('/schaar', [MainController::class, "schaar"]);
 Route::get('/kantbank', [MainController::class, "kantbank"]);
